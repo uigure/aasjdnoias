@@ -38,7 +38,7 @@ multiprocessing
 
 ## Task Description
 
-### Task 2.1: Analysis of Co-occurrence Patterns of Points of Interest (POI)
+### Task 2.1: Analysis of Co-occurrence Patterns of Points of Interest (POI) [Part 1]
 #### Objective:
 - [Add the objective here]
 
@@ -48,7 +48,7 @@ multiprocessing
 #### Approach:
 - [Describe the approach here]
 
-### Task 2.2: Mining Sequential Patterns
+### Task 2.2: Mining Sequential Patterns [Part 2]
 #### Objective:
 - [Add the objective here]
 
@@ -62,7 +62,7 @@ The processed data is then saved as JSON files for further use in part 2 and par
 #### Approach:
 - [Describe the approach here]
 
-### Task 3: Advanced Tasks (Optional)
+### Task 3: Advanced Tasks (Optional) [Part 3]
 #### Objective:
 Define an application based on the provided datasets, identifying locations with significant fluctuations in visit frequency throughout the week. This will provide insights into dynamic usage patterns, which can help with resource allocation, urban planning, and business strategies.
 
