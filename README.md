@@ -50,17 +50,16 @@ multiprocessing
 
 ### Task 2.2: Mining Sequential Patterns
 #### Objective:
-- [Add the objective here]
+In this task, we will be applying GSP to mine for sequential patterns in each city.
 
 #### Steps:
 1. **Data Preprocessing**: 
 The code processes GPS data for multiple cities, organizing users' movements into daily trip legs.
 It sorts user data by day and timestamp, creates paths for each day, and stores the locations in a dictionary.
 The processed data is then saved as JSON files for further use in part 2 and part 3, whereby the Data Integrity issue is filtered out in the respective parts.
-3. **Data Analysis**: [Describe the data analysis steps here]
 
 #### Approach:
-- [Describe the approach here]
+After applying GSP, the output for each city is stored in their respective gsp-{cityname}.ipynb file. The minumum support can be adjusted in each file.
 
 ### Task 3: Advanced Tasks (Optional)
 #### Objective:
