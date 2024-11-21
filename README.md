@@ -63,21 +63,23 @@ Define an application based on the provided datasets, identifying locations with
 This task involves analyzing the variability in visit frequencies for locations over a week, with the goal of identifying locations and clusters with significant weekly fluctuations. The analysis is based on visit frequency data aggregated over the week, highlighting areas with high variability driven by events, peak hours, or weekend activities.
 
 ##### Steps:
-
+```
 1. **Dataset Loading**:
    The dataset is loaded from a pre-processed JSON file generated in Task 2, which contains the visit frequency data for each location across multiple cities.
 
 2. **Analysis of Weekly Visit Trends**:
    - **Aggregation by Day**: Compute the total visit frequency for each day of the week across all locations.
      - Visualize this with a **bar plot** to show the total visits per day, identifying patterns such as peaks during weekdays and weekends.
-     
+     - Plot the locations on the map, to show the visit frequency and to show the magnitude.
+
    - **Standard Deviation Calculation**: For each location, calculate the standard deviation in visit frequency to measure variability.
      - Select the top 15 locations with the highest standard deviation to highlight areas with the most significant fluctuations.
+     - Plot the 15 locations on the map, to show the visit frequency variability amongst the days.
 
 3. **Clustering Analysis with K-Means**:
    - Perform **K-Means clustering** on the locations based on their spatial coordinates (latitude and longitude). The number of clusters is set to `k=50`, but this can be adjusted for finer granularity or based on predefined cluster centers indicating areas of interest.
    - Select the **top 5 clusters** that exhibit the highest variability in visit frequency based on their standard deviation.
    - **Visualize** the clusters on a **cluster map** and create a **line plot** for each cluster to show the variability in visit frequency across the days of the week.
-
+```
 #### Visualization:
 The methodology helps identify locations with high weekly fluctuations and visualizes these patterns effectively through plots and maps.
