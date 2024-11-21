@@ -31,6 +31,7 @@ mlxtend
 warnings
 itertools
 multiprocessing
+gsp_python
 ```
 
 ### Data Integrity:
@@ -50,17 +51,18 @@ multiprocessing
 
 ### Task 2.2: Mining Sequential Patterns
 #### Objective:
-- [Add the objective here]
+- This this task we will be using GSP to mine sequential patterns in each city.
 
 #### Steps:
 1. **Data Preprocessing**: 
 The code processes GPS data for multiple cities, organizing users' movements into daily trip legs.
 It sorts user data by day and timestamp, creates paths for each day, and stores the locations in a dictionary.
 The processed data is then saved as JSON files for further use in part 2 and part 3, whereby the Data Integrity issue is filtered out in the respective parts.
-3. **Data Analysis**: [Describe the data analysis steps here]
 
 #### Approach:
-- [Describe the approach here]
+After applying GSP, the output of each gsp-{cityname}.ipynb file stores the subsequences and their respective counts for each city.
+The minimum support level used for each city can be adjusted to obtain more results.
+
 
 ### Task 3: Advanced Tasks (Optional)
 #### Objective:
