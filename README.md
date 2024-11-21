@@ -31,6 +31,7 @@ mlxtend
 warnings
 itertools
 multiprocessing
+gsp_python
 ```
 
 ### Data Integrity:
@@ -59,7 +60,7 @@ It sorts user data by day and timestamp, creates paths for each day, and stores 
 The processed data is then saved as JSON files for further use in part 2 and part 3, whereby the Data Integrity issue is filtered out in the respective parts.
 
 #### Approach:
-After applying GSP, the output for each city is stored in their respective gsp-{cityname}.ipynb file. The minumum support can be adjusted in each file.
+After applying GSP, the output for each city is stored in their respective gsp-{cityname}.ipynb file. The subsequences in the output are sorted in descending order by count. The minimum support can be adjusted in each file.
 
 ### Task 3: Advanced Tasks (Optional) [Part 3]
 #### Objective:
